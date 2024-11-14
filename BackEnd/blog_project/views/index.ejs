@@ -1,7 +1,7 @@
 <%- include("partials/header.ejs") %>
 
 
-<h1> All the essays here</h1>
+<h1> Essays </h1>
 
 
 
@@ -9,4 +9,4 @@
 
 
 
-<%- include("partials/footer.ejs") %>
+<%- include("partials/footer.ejs",{year: new Date().getFullYear()}) %>

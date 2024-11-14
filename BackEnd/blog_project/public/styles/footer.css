@@ -1,0 +1,11 @@
+.footerText{
+  background-color: #333; /* Cor de fundo */
+  color: #fff; /* Cor do texto */
+  text-align: center; /* Centraliza o texto */
+  padding: 10px 0; /* Espaçamento interno */
+  position: fixed; /* Fixar o footer na parte inferior */
+  bottom: 0; /* Posiciona o footer no final da página */
+  width: 100%; /* Largura total para ocupar a página inteira */
+  font-size: 14px; /* Tamanho da fonte */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3); /* Sombras sutis */
+}
