@@ -2,8 +2,13 @@
 
 
 <h1> Essays </h1>
-
-
+<ul class = "essayList">
+  <% for( let index = 0; index < locals.essays.length; index++ ) { %>
+  
+      <li class="essayItem"> <%= essays[index] %> </li> 
+    
+  <% } %>
+</ul> 
 
 
 
